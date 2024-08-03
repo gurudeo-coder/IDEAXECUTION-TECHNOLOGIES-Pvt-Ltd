@@ -23,10 +23,10 @@ click_Register= driver.find_element(By.XPATH,'//*[@id="admin_login_register_btn"
 
 click_sign_In.click()
 click_sign_Up.click()
-uesr_Name.send_keys("")
-email_ID.send_keys("")
-password.send_keys("")
-confirm_password.send_keys("")
+uesr_Name.send_keys("gurudeo")
+email_ID.send_keys("gurudeo.padwe@gmail.com")
+password.send_keys("123456")
+confirm_password.send_keys("123456")
 click_Register.click()
 
 assert driver.title == "BOOM.TV -LIVE"
