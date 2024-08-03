@@ -17,8 +17,8 @@ password= driver.find_element(By.NAME,'password')
 login= driver.find_element(By.XPATH,'//*[@id="new_login_modal"]/div/div/div/form[1]/button')
 
 sign_In.click()
-email_ID.send_keys("")
-password.send_keys("")
+email_ID.send_keys("gurudeo.padwe@gmail.com")
+password.send_keys("123456")
 login.click()
 
 assert driver.title == "BOOM.TV -LIVE"
